@@ -1,0 +1,16 @@
+import tkinter
+from tkinter import messagebox
+
+root = tkinter.Tk()
+root.withdraw()
+
+messagebox.showerror("Warning", "Patient Labwork Expired")
+
+import pandas as pd
+
+labwork_a1c = pd.read_csv(#dataset)
+
+if labwork_a1c > 1 year 
+	then alert(messagebox.showerror)
+if labwork_a1c < 1 year
+	then no alert
